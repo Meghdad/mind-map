@@ -7,55 +7,55 @@
 [![GitHub forks](https://img.shields.io/github/forks/wanglin2/mind-map)](https://github.com/wanglin2/mind-map/network/members)
 ![license](https://img.shields.io/npm/l/express.svg)
 
-> 一个简单&强大的Web思维导图
+> A Simple & Powerful Web Mind Map
 
-本项目包含两部分：
+This project consists of two parts:
 
-1.一个js思维导图库，不依赖任何框架，你可以使用它来快速完成Web思维导图产品的开发。
+1.A js mind map library that does not depend on any framework, you can use it to quickly complete the development of Web mind map products.
 
-开发文档：[https://wanglin2.github.io/mind-map/#/doc/zh/](https://wanglin2.github.io/mind-map/#/doc/zh/)
+Development documentation: [https://wanglin2.github.io/mind-map/#/doc/zh/](https://wanglin2.github.io/mind-map/#/doc/zh/)
 
-2.一个Web思维导图，基于思维导图库、Vue2.x、ElementUI开发，可以操作电脑本地文件，所以你可以直接把它当做一个在线版思维导图应用使用，如果觉得github的响应速度慢，你也可以部署到你的服务器上。
+2.A web mind map, developed based on the mind map library, Vue2. can be deployed to your server.
 
-在线地址：[https://wanglin2.github.io/mind-map/](https://wanglin2.github.io/mind-map/)
+Online address: [https://wanglin2.github.io/mind-map/](https://wanglin2.github.io/mind-map/)
 
-另外也提供了客户端可供下载使用，支持`Windows`、`Mac`及`Linux`，下载地址：
+In addition, a client is also available for download, supporting `Windows`, `Mac` and `Linux`, download address:
 
 Github：[releases](https://github.com/wanglin2/mind-map/releases)。
 
-百度云盘：[地址](https://pan.baidu.com/s/1huasEbKsGNH2Af68dvWiOg?pwd=3bp3)。
+Baidu cloud disk: [地址](https://pan.baidu.com/s/1huasEbKsGNH2Af68dvWiOg?pwd=3bp3)。
 
-# 特性
+# Characteristic
 
-- [x] 插件化架构，除核心功能外，其他功能作为插件提供，按需使用，减小打包体积
-- [x] 支持逻辑结构图、思维导图、组织结构图、目录组织图、时间轴、鱼骨图六种结构
-- [x] 内置多种主题，允许高度自定义样式，支持注册新主题
-- [x] 支持快捷键
-- [x] 节点内容支持图片、图标、超链接、备注、标签、概要
-- [x] 支持前进后退
-- [x] 支持拖动、缩放
-- [x] 支持右键和Ctrl+左键两种多选方式
-- [x] 支持节点自由拖拽、拖拽调整
-- [x] 支持多种节点形状
-- [x] 支持导出为`json`、`png`、`svg`、`pdf`、`markdown`，支持从`json`、`xmind`、`markdown`导入
-- [x] 支持小地图、支持水印
-- [x] 支持关联线
+- [x] Plug-in architecture, in addition to the core functions, other functions are provided as plug-ins, which can be used on demand and reduce the packaging volume
+- [x] Support logical structure chart, mind map, organization chart, directory organization chart, time axis, and fishbone diagram
+- [x] A variety of built-in themes allow highly customized styles and support for registering new themes
+- [x] Support shortcut keys
+- [x] Node content supports pictures, icons, hyperlinks, notes, labels, and summaries
+- [x] Support forward and backward
+- [x] Support dragging and zooming
+- [x] Support two multi-selection methods of right button and Ctrl+left button
+- [x] Support node free dragging and dragging adjustment
+- [x] Supports multiple node shapes
+- [x] Support exporting to `json`, `png`, `svg`, `pdf`, `markdown`, support importing from `json`, `xmind`, `markdown`
+- [x] Support small map, support watermark
+- [x] Support link
 
-# 安装
+# Install
 
 ```bash
 npm i simple-mind-map
 ```
 
-# 使用
+# Use
 
-提供一个宽高不为0的容器元素：
+Provide a container element with a width and height other than 0:
 
 ```html
 <div id="mindMapContainer"></div>
 ```
 
-另外再设置一下`css`样式：
+In addition, set the `css` style:
 
 ```css
 #mindMapContainer * {
@@ -64,7 +64,7 @@ npm i simple-mind-map
 }
 ```
 
-然后创建一个实例：
+Then create an instance:
 
 ```js
 import MindMap from "simple-mind-map";
@@ -80,21 +80,21 @@ const mindMap = new MindMap({
 });
 ```
 
-即可得到一个思维导图。
+You can get a mind map.
 
-想要实现更多功能？可以查看[开发文档](https://wanglin2.github.io/mind-map/#/doc/zh/)。
+Want to achieve more functions? can view [development documentation](https://wanglin2.github.io/mind-map/#/doc/zh/)。
 
 # License
 
 MIT
 
-# 微信交流群
+# WeChat exchange group
 
 <img src="./qrcode.jpg" style="width: 300px" />
 
-# 请作者喝杯咖啡
+# buy the author a cup of coffee
 
-> 厚椰乳一盒 + 纯牛奶半盒 + 冰块 + 咖啡液 = 生椰拿铁 yyds
+> A box of thick coconut milk + half a box of pure milk + ice cubes + coffee liquid = raw coconut latte yyds
 
 <p>
   <img src="./web/src/assets/img/alipay.jpg" style="width: 300px" />
